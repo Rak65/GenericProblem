@@ -10,9 +10,9 @@ namespace GenericsProblem
     {
         public static void Main(string[] args)
         {
-            float num1 = 8F;
-            float num2 = 58.43F;
-            float num3 = 26F;
+            float num1 = 8.24F;
+            float num2 = 58.24F;
+            float num3 = 262.23F;
             Console .WriteLine ("Maximum number is "+ FindMaximum.MaxNumber(num1 ,num2 ,num3));
             Console.ReadKey();
         }
