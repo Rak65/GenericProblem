@@ -12,7 +12,7 @@ namespace GenericsProblem
         {
             int num1 = 80;
             int num2 = 90;
-            int num3 = 60;
+            int num3 = 260;
             Console .WriteLine ("Maximum number is "+ FindMaximum.MaxNumber(num1 ,num2 ,num3));
             Console.ReadKey();
         }
