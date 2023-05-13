@@ -12,7 +12,7 @@ namespace GenericsProblem
         {
             string num1 = "50";
             string num2 = "70";
-            string num3 = "25";
+            string num3 = "85";
             Console .WriteLine ("Maximum number is "+ FindMaximum.MaxString (num1 ,num2 ,num3));
             Console.ReadKey();
         }
