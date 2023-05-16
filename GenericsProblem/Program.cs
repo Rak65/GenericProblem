@@ -14,7 +14,7 @@ namespace GenericsProblem
 
             int firstNumber = 90;
             int secondNumber = 110;
-            int thirdNumber = 270;
+            int thirdNumber = 290;
 
             double fourNumber = 67.2;
             double fifthNumber = 80.56;
