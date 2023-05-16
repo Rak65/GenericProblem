@@ -12,18 +12,13 @@ namespace GenericsProblem
         {
             Console.WriteLine("Find Maximum Using Generic");
 
-            int[] intArray = { 1, 2, 3, 4 };
-            double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
-            char[] charArray = { 'a', 'b', 'c', 'd' };
+            int intArray = GenericMaximum<int>.testMaximum(5, 6);
+            double doubleArray = GenericMaximum<double>.testMaximum(1.1, 2.2);
+            char charArray = GenericMaximum<char>.testMaximum('a', 'b');
 
-            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
-            generic.PrintMax();
-
-            GenericMaximum<double> generics = new GenericMaximum<double>(doubleArray);
-            generics.PrintMax();
-
-            GenericMaximum<char> genericMax = new GenericMaximum<char>(charArray);
-            genericMax.PrintMax();
+            Console.WriteLine("Max value: " + intArray);
+            Console.WriteLine("Max value: " + doubleArray);
+            Console.WriteLine("Max value: " + charArray);
             Console .ReadKey();
         }
     }
